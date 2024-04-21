@@ -1,6 +1,5 @@
 html {
-  background-color: #808080;
-  margin: 8px, 0px;
+  background-color:grey
 }
 
 body {
@@ -9,6 +8,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0px;
+  padding: 0px;
 }
 
 code {

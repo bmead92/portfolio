@@ -1,4 +1,4 @@
-import './index.css';
+import './index.scss';
 import JSIcon from '../../assets/images/javascript-icon.png';
 import CSSIcon from '../../assets/images/css-icon.png';
 import HTMLIcon from '../../assets/images/html-icon.png';
@@ -10,21 +10,26 @@ import IOSIcon from '../../assets/images/ios-icon.png';
 import JavaIcon from '../../assets/images/java-icon.png';
 import PythonIcon from '../../assets/images/python-icon.png';
 import TypescriptIcon from '../../assets/images/typescript-icon.png';
+import Strings from '../../strings/Strings';
 
 const Skills = () => {
     return (
         <div className='skillsContainer'>
-            <h1 className='text'>LANGUAGES, FRAMEWORKS, AND TOOLS</h1>
-            <div className='skills'>
-                <img src={ReactIcon} className='logo' alt='React logo' />
-                <img src={NodeIcon} className='logo' alt='Node.js logo' />
+            <h1 className='text'>{Strings.skillsHeader}</h1>
+            <div className='languages'>
                 <img src={JSIcon} className='logo' alt='javascript logo' />
                 <img src={JavaIcon} className='logo' alt='Java logo' />
                 <img src={PythonIcon} className='logo' alt='Python logo' />
                 <img src={TypescriptIcon} className='logo' alt='Typescript logo' />
                 <img src={HTMLIcon} className='logo' alt='HTML-5 logo' />
                 <img src={CSSIcon} className='logo' alt='CSS-3 logo' />
+            </div>
+            <div className='misc'>
+                <img src={ReactIcon} className='logo' alt='React logo' />
+                <img src={NodeIcon} className='logo' alt='Node.js logo' />
                 <img src={GitIcon} className='logo' alt='Git logo' />
+            </div>
+            <div className='mobile'>
                 <img src={AndroidIcon} className='logo' alt='Android logo' />
                 <img src={IOSIcon} className='logo' alt='iOS logo' />
             </div>

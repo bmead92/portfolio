@@ -1,0 +1,23 @@
+$gradient-start: #20135a;
+$gradient-stop: #3673a2;
+
+.aboutContainer {
+    display: flex;
+    border-radius: 5%;
+    background-image: linear-gradient($gradient-start, $gradient-stop);
+    width: 100vw;
+}
+
+.about {
+    padding: 8px;
+    color: whitesmoke;
+    font-size: 48px;
+    white-space:pre-line;
+    width: 50vw;
+}
+
+.image {
+    padding: 8px;
+    width: 50vw;
+    border-radius: 10%;
+}
