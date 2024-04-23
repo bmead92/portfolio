@@ -18,6 +18,28 @@ const Strings = {
     `,
     header: `Hello, I'm Bryce Meadors`,
     skillsHeader: `LANGUAGES, FRAMEWORKS, AND TOOLS`,
+    navigationTabs: [
+        {
+            name: 'Home',
+            url: '/',
+        },
+        {
+            name:'About',
+            url: '/about',
+        },
+        {
+            name:'Resume',
+            url: '/resume',
+        },
+        {
+            name: 'Github',
+            url: 'https://github.com/bmead92',
+        },
+        {
+            name: 'Projects',
+            url: '/projects',
+        },
+    ],
     
 }
 

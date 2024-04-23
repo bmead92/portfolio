@@ -1,3 +1,11 @@
 $gradient-start: #20135a;
 $gradient-stop: #3673a2;
 $blue-gradient: linear-gradient($gradient-start, $gradient-stop);
+$light-blue-solid: linear-gradient($gradient-stop, $gradient-stop);
+
+@mixin buttonContainer {
+    background-image: $blue-gradient;
+    &:hover {
+        background-image: $light-blue-solid;
+    };
+};
