@@ -7,7 +7,7 @@ const NavigationTabs = () => {
         <div className="container">
             {Strings.navigationTabs.map((entry) => {
                 return (
-                    <div className='tab'>
+                    <div className='tab' key={`${entry}`}>
                         <NavLink className='text' to={`${entry.url}`}>
                             {entry.name}
                         </NavLink>

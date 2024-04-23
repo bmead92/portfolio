@@ -1,8 +1,8 @@
-import "./index.css";
+import "./index.scss";
 import Strings from "../../strings/Strings";
 
 const Header = () => {
-  return <div className="header">{Strings.header}</div>;
+  return <div className="headerText headerContainer">{Strings.header}</div>;
 };
 
 export default Header;

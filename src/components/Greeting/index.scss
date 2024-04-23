@@ -1,14 +1,14 @@
 $gradient-start: #20135a;
 $gradient-stop: #3673a2;
 
-.aboutContainer {
+.greetingContainer {
     display: flex;
     border-radius: 5%;
     background-image: linear-gradient($gradient-start, $gradient-stop);
     width: 100vw;
 }
 
-.about {
+.greetingText {
     padding: 8px;
     color: whitesmoke;
     font-size: 48px;

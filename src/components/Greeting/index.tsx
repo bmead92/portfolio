@@ -2,10 +2,10 @@ import './index.scss';
 import Strings from '../../strings/Strings';
 import Tacoma from '../../assets/images/tacoma-wa.png'
 
-const About = () => {
+const Greeting = () => {
     return (
-        <div className='aboutContainer'>
-            <div className='about'>
+        <div className='greetingContainer'>
+            <div className='greetingText'>
                 {Strings.aboutShort}
             </div>
             <img className='image' src={Tacoma} />
@@ -13,4 +13,4 @@ const About = () => {
     )
 };
 
-export default About;
+export default Greeting;
