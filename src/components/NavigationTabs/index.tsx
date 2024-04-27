@@ -7,8 +7,16 @@ const NavigationTabs = () => {
         <div className="container">
             {Strings.navigationTabs.map((entry) => {
                 return (
-                    <div className='tab' key={`${entry}`}>
-                        <NavLink className='text' to={`${entry.url}`}>
+                    <div
+                        className='tab'
+                        key={entry.index}
+                    >
+                        {/* TODO: Refactor to buttons that snap to certain sections
+                        I don't think NavLinks/Links are required here */}
+                        <NavLink
+                            className='text'
+                            to={`${entry.url}`}
+                        >
                             {entry.name}
                         </NavLink>
                     </div>

@@ -4,6 +4,7 @@ import Greeting from './components/Greeting/index';
 import Skills from './components/Skills';
 import NavigationTabs from './components/NavigationTabs';
 import Resume from './components/Resume';
+import AboutMe from './components/AboutMe';
 import {BrowserRouter} from 'react-router-dom';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <NavigationTabs />
       <Greeting />
+      <AboutMe />
       <Skills />
       <Resume />
     </BrowserRouter>
