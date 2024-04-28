@@ -4,7 +4,6 @@ $gradient-stop: #3673a2;
 .greetingContainer {
     display: flex;
     border-radius: 5%;
-    background-image: linear-gradient($gradient-start, $gradient-stop);
     width: 100vw;
 }
 

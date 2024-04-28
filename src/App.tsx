@@ -7,17 +7,19 @@ import Resume from './components/Resume';
 import AboutMe from './components/AboutMe';
 import {BrowserRouter} from 'react-router-dom';
 import ScrollToHashElement from './ScrollToHashElement';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <BrowserRouter>
       <ScrollToHashElement />
-      <Header />
+      {/* <Header /> */}
       <NavigationTabs />
       <Greeting />
       <AboutMe />
       <Skills />
       <Resume />
+      <Footer />
     </BrowserRouter>
   );
 }

@@ -19,7 +19,7 @@ const Strings = {
     From August 2023 to present day, I am working full-time as an Associate Software Development Engineer with Sinclair's News Apps team. Sinclair owns 73 local news stations across the country, each with an iOS and Android app. As a team, we have been working tirelessly to improve the user experience and drive more ad revenue for the company and have been very successful.
     `,
     aboutShort: `
-    A software developer based in Tacoma, Washington.
+    Hello! I'm Bryce Meadors, a software developer based in Tacoma, Washington.
     `,
     header: `Hello, I'm Bryce Meadors`,
     skillsHeader: `LANGUAGES, FRAMEWORKS, AND TOOLS`,
@@ -40,14 +40,21 @@ const Strings = {
             index: 2,
         },
         {
-            name: 'GITHUB',
-            url: 'https://github.com/bmead92',
-            index: 3,
-        },
-        {
             name: 'PROJECTS',
             url: '#projects',
-            index: 4,
+            index: 3,
+        },
+    ],
+    externalLinks: [
+        {
+            name: 'Github',
+            url: 'https://github.com/bmead92',
+            index: 0,
+        },
+        {
+            name: 'LinkedIn',
+            url: 'https://www.linkedin.com/in/bryce-meadors-a13923229/',
+            index: 1,
         },
     ],
     accentedE: {

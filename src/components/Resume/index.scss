@@ -12,7 +12,7 @@
 }
 
 .downloadResumeButton {
-    @include buttonContainer;
+    background-image: $light-blue-solid; //TODO: Update button default, on hover, maybe text clicked?
     cursor: pointer;
     color: whitesmoke;
 }

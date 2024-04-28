@@ -1,5 +1,8 @@
+/* global styles */
+@import './App.scss';
+
 html {
-  background-color:grey
+  background-image:$blue-gradient
 }
 
 body {
