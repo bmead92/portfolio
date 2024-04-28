@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/bryce.meadors.io/static/css/main.11b8e334.css",
-    "main.js": "/bryce.meadors.io/static/js/main.3d729add.js",
-    "static/media/setInStoneTitleScreen.png": "/bryce.meadors.io/static/media/setInStoneTitleScreen.f4ba462ce1c89d1b0c41.png",
-    "static/media/javascript-icon.png": "/bryce.meadors.io/static/media/javascript-icon.a147d63c92d88477c8db.png",
-    "static/media/sass-icon.png": "/bryce.meadors.io/static/media/sass-icon.7cdbf6b5889c42b3e490.png",
-    "static/media/tacoma-wa.png": "/bryce.meadors.io/static/media/tacoma-wa.57058c9d519060c17d12.png",
-    "static/media/coffeeAndCardsTitleScreen.png": "/bryce.meadors.io/static/media/coffeeAndCardsTitleScreen.901d6de15daaea244f5a.png",
-    "static/media/templeJogTitleScreen.png": "/bryce.meadors.io/static/media/templeJogTitleScreen.4673f7d8f04c32eeb294.png",
-    "static/media/react-icon.png": "/bryce.meadors.io/static/media/react-icon.aa2d1b58de9a7180f161.png",
-    "static/media/node-icon.png": "/bryce.meadors.io/static/media/node-icon.85f243537850c1f9096c.png",
-    "static/media/git-icon.png": "/bryce.meadors.io/static/media/git-icon.d45f1900d8999721399f.png",
-    "static/media/potionQuestTitleScreen.png": "/bryce.meadors.io/static/media/potionQuestTitleScreen.d78d8352c2076f1f7854.png",
-    "static/media/java-icon.png": "/bryce.meadors.io/static/media/java-icon.f91f26619da05654b2b8.png",
-    "static/media/typescript-icon.png": "/bryce.meadors.io/static/media/typescript-icon.69b6c6a860667aaa86d9.png",
-    "static/media/android-icon.png": "/bryce.meadors.io/static/media/android-icon.b1163a14dfec8c5233a2.png",
-    "static/media/ios-icon.png": "/bryce.meadors.io/static/media/ios-icon.04f71b556a6318383735.png",
-    "static/media/python-icon.png": "/bryce.meadors.io/static/media/python-icon.c038d6e950c57ddc3d03.png",
-    "index.html": "/bryce.meadors.io/index.html",
-    "main.11b8e334.css.map": "/bryce.meadors.io/static/css/main.11b8e334.css.map",
-    "main.3d729add.js.map": "/bryce.meadors.io/static/js/main.3d729add.js.map"
+    "main.css": "/portfolio/static/css/main.11b8e334.css",
+    "main.js": "/portfolio/static/js/main.38d919f3.js",
+    "static/media/setInStoneTitleScreen.png": "/portfolio/static/media/setInStoneTitleScreen.f4ba462ce1c89d1b0c41.png",
+    "static/media/javascript-icon.png": "/portfolio/static/media/javascript-icon.a147d63c92d88477c8db.png",
+    "static/media/sass-icon.png": "/portfolio/static/media/sass-icon.7cdbf6b5889c42b3e490.png",
+    "static/media/tacoma-wa.png": "/portfolio/static/media/tacoma-wa.57058c9d519060c17d12.png",
+    "static/media/coffeeAndCardsTitleScreen.png": "/portfolio/static/media/coffeeAndCardsTitleScreen.901d6de15daaea244f5a.png",
+    "static/media/templeJogTitleScreen.png": "/portfolio/static/media/templeJogTitleScreen.4673f7d8f04c32eeb294.png",
+    "static/media/react-icon.png": "/portfolio/static/media/react-icon.aa2d1b58de9a7180f161.png",
+    "static/media/node-icon.png": "/portfolio/static/media/node-icon.85f243537850c1f9096c.png",
+    "static/media/git-icon.png": "/portfolio/static/media/git-icon.d45f1900d8999721399f.png",
+    "static/media/potionQuestTitleScreen.png": "/portfolio/static/media/potionQuestTitleScreen.d78d8352c2076f1f7854.png",
+    "static/media/java-icon.png": "/portfolio/static/media/java-icon.f91f26619da05654b2b8.png",
+    "static/media/typescript-icon.png": "/portfolio/static/media/typescript-icon.69b6c6a860667aaa86d9.png",
+    "static/media/android-icon.png": "/portfolio/static/media/android-icon.b1163a14dfec8c5233a2.png",
+    "static/media/ios-icon.png": "/portfolio/static/media/ios-icon.04f71b556a6318383735.png",
+    "static/media/python-icon.png": "/portfolio/static/media/python-icon.c038d6e950c57ddc3d03.png",
+    "index.html": "/portfolio/index.html",
+    "main.11b8e334.css.map": "/portfolio/static/css/main.11b8e334.css.map",
+    "main.38d919f3.js.map": "/portfolio/static/js/main.38d919f3.js.map"
   },
   "entrypoints": [
     "static/css/main.11b8e334.css",
-    "static/js/main.3d729add.js"
+    "static/js/main.38d919f3.js"
   ]
 }
