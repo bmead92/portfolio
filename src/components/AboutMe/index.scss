@@ -3,27 +3,12 @@
 
 .header {
     font-size: 32px;
-    padding-top: 12px;
     font-weight: bold;
-}
+};
 
 .aboutMeText {
     font-size: 18px;
     white-space: pre-line;
-}
-.Collapsible {
-    padding-top: 12px;
-    @include globalHover;
-}
-
-.Collapsible__trigger {
-    &.is-open {
-        color: $text-color-white;
-        font-weight: bold;
-        font-size: 32px;
-        white-space: pre-line;
-    }
-}
-.Collapsible__contentInner {
     color: $text-color-white;
-}
+};
+

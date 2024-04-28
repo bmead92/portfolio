@@ -23,9 +23,11 @@
     font-size: 16px;
     height: 120px;
     color: $text-color-white;
+    font-weight: normal;
 }   
 
 .image {
+    border-radius: 10%;
     height: 200px;
     width: 250px;
 }

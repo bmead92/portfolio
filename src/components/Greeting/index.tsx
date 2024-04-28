@@ -8,7 +8,11 @@ const Greeting = () => {
             <div className='greetingText globalFontColor'>
                 {Strings.aboutShort}
             </div>
-            <img className='image' src={Tacoma} />
+            {/* TODO: Update to a gallery of images*/}
+            {/* TODO: Keep size static, dynamically present with media queries */}
+            <div className='imageContainer'>
+                <img className='greetingImage' src={Tacoma} />
+            </div>
         </div>
     )
 };

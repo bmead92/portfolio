@@ -10,6 +10,7 @@ import IOSIcon from '../../assets/images/ios-icon.png';
 import JavaIcon from '../../assets/images/java-icon.png';
 import PythonIcon from '../../assets/images/python-icon.png';
 import TypescriptIcon from '../../assets/images/typescript-icon.png';
+import SassIcon from '../../assets/images/sass-icon.png';
 import Strings from '../../strings/Strings';
 
 const Skills = () => {
@@ -23,6 +24,7 @@ const Skills = () => {
                 <img src={TypescriptIcon} className='logo' alt='Typescript logo' />
                 <img src={HTMLIcon} className='logo' alt='HTML-5 logo' />
                 <img src={CSSIcon} className='logo' alt='CSS-3 logo' />
+                <img src={SassIcon} className='logo' alt='SASS logo' />
             </div>
             <div className='misc'>
                 <img src={ReactIcon} className='logo' alt='React logo' />

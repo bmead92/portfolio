@@ -3,17 +3,23 @@
 
 
 .greetingContainer {
+    padding-top: 20px;
     display: flex;
-    border-radius: 5%;
     width: 100vw;
 }
 
 .greetingText {
-    font-size: 48px;
+    font-size: 40px;
     white-space: pre-line;
     width: 50vw;
+    padding-right: 8px;
 }
 
-.image {
+.imageContainer {
+    max-width: 50vw;
+}
+
+.greetingImage {
     border-radius: 10%;
+    max-width: 50vw;
 }

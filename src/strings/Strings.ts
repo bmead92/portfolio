@@ -16,7 +16,7 @@ const Strings = {
     
     From September 2018 to June 2022, I worked towards my degree. After graduating, I had a few interviews that ultimately lead to dead ends. I knew that I had the soft skills required for interviewing and being a successful developer, but I knew that I needed to improve my programming skills.
     
-    My friend and fellow veteran, Ryan Trepanier, recommended that I apply to TLG Learning's SDE program, a 12-week intensive course designed for veterans with no programming experience to learn enough to change careers and succeed in software development. As I had a CS degree, I was able to excel during the course, regularly in the top 10% of my 21-person cohort. Additionally, because UW-T taught Java as its OOP language, I was able to tutor fellow student-veterans during the course and solididy what I knew even more.
+    My friend and fellow veteran, Ryan Trepanier, recommended that I apply to TLG Learning's SDE program, a 18-week intensive course designed for veterans with no programming experience to learn enough to change careers and succeed in software development. As I had a CS degree, I was able to excel during the course, regularly in the top 10% of my 21-person cohort. Additionally, because UW-T taught Java as its OOP language, I was able to tutor fellow student-veterans during the course and further solidify what I learned in college.
     
     I graduated from TLG Learning's SDE course in March 2023. From April 2023 until August of the same year, I was working as an intern full-time within their Interactive team developing React based web components. Myself and 2 other people were primarily responsible for designing an internal tool used by producers to dramatically increase their productivity. Sinclair's CDO knew that producers could struggle from writer's block when they had to produce a great headline. We created a tool that utilizes ChatGPT-4 to suggest headlines to the user instantly.
     
@@ -24,6 +24,7 @@ const Strings = {
     `,
     aboutShort: `
     Hello! I'm Bryce Meadors, a software developer based in Tacoma, Washington.
+    Welcome to my portfolio, I built this using React and SASS.
     `,
     header: `Hello, I'm Bryce Meadors`,
     skillsHeader: `LANGUAGES, FRAMEWORKS, AND TOOLS`,
@@ -59,6 +60,11 @@ const Strings = {
             name: 'LinkedIn',
             url: 'https://www.linkedin.com/in/bryce-meadors-a13923229/',
             index: 1,
+        },
+        {
+            name: 'TLG',
+            url: 'https://career.tlglearning.com/software-development-engineer-sde/',
+            index: 2,
         },
     ],
     projects: [
