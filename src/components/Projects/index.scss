@@ -1,0 +1,31 @@
+/* global styles */
+@import '../../App.scss';
+
+.projectSectionContainer {
+    display: flex;
+    padding-bottom: 12px;
+}
+
+.header {
+    text-transform: uppercase;
+}
+
+.projectContainer {
+    width: 25vw;
+    padding-right: 8px;
+}
+
+.name {
+    color: $text-color-white;
+}
+
+.description {
+    font-size: 16px;
+    height: 120px;
+    color: $text-color-white;
+}   
+
+.image {
+    height: 200px;
+    width: 250px;
+}
