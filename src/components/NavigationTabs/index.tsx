@@ -13,7 +13,7 @@ const NavigationTabs = () => {
                         key={entry.index}
                     >
                         <NavLink
-                            className='text'
+                            className='label globalFontColor'
                             to={`${entry.url}`}
                         >
                             {entry.name}

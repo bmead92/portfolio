@@ -5,7 +5,7 @@ import Tacoma from '../../assets/images/tacoma-wa.png'
 const Greeting = () => {
     return (
         <div id='greeting' className='greetingContainer'>
-            <div className='greetingText'>
+            <div className='greetingText globalFontColor'>
                 {Strings.aboutShort}
             </div>
             <img className='image' src={Tacoma} />

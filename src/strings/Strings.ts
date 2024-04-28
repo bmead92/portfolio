@@ -1,6 +1,7 @@
 import SetInStone from '../assets/images/setInStoneTitleScreen.png'
 import CoffeeAndCards from '../assets/images/coffeeAndCardsTitleScreen.png'
-import TemplteJog from '../assets/images/templeJogTitleScreen.png'
+import TempleJog from '../assets/images/templeJogTitleScreen.png'
+import PotionQuest from '../assets/images/potionQuestTitleScreen.png';
 const Strings = {
     about:
     `
@@ -65,27 +66,34 @@ const Strings = {
             name: 'Set in Stone',
             description: `
             2-D top-down Dungeon crawler that you can play in the browser, inspired by retro Zelda games.
-            Built using the Phaser Framework and Vanilla Javascript from 16 December 2022 - 21 December 2022
+            Built using the Phaser Framework and Vanilla Javascript from 16 December 2022 - 21 December 2022.
             `,
             image: SetInStone,
             url: 'https://csdav0.github.io/JS_FINAL_PROJECT/',
             index: 0,
         },
         {
-            name: 'Temple Jog',
-            description: `
-            As a 3-person team, we added a GUI layer to a text-based console game in Java.
-            `,
-            image: TemplteJog,
-            url: 'https://github.com/bmead92/temple-jog-T1-Capstone',
+            name: 'Potion Quest',
+            description: 'A console-based text adventure written in Java for phase 1 of our TLG capstone projects. Another team would inherit our codebase and build a GUI on top of it. I took lead on the controls, combat, and state of the main character.',
+            image: PotionQuest,
+            url: 'https://github.com/bmead92/potion-quest',
             index: 1,
         },
         {
+            name: 'Temple Jog',
+            description: `
+            A GUI represented using Java Swing. Built on a previously console based adventure from another team. As I had the most Java experience, I assumed the role of team lead. 
+            `,
+            image: TempleJog,
+            url: 'https://github.com/bmead92/temple-jog-T1-Capstone',
+            index: 2,
+        },
+        {
             name: 'Coffee and Cards',
-            description: 'A version of blackjack hosted in the console, written in Java.',
+            description: 'A version of blackjack hosted in the console, written in Java. Again, I assumed the the team lead position, wrote the entire first skeleton codebase, all of the unit tests, and completed the final code refactor.',
             image: CoffeeAndCards,
             url: 'https://github.com/bmead92/Coffee-and-Cards',
-            index: 2,
+            index: 3,
         },
     ],
     accentedE: {

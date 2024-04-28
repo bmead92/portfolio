@@ -2,6 +2,7 @@ $gradient-start: #20135a;
 $gradient-stop: #3673a2;
 $blue-gradient: linear-gradient($gradient-start, $gradient-stop);
 $light-blue-solid: linear-gradient($gradient-stop, $gradient-stop);
+$text-color-white: whitesmoke;
 
 @mixin buttonContainer {
     background-image: $blue-gradient;
@@ -15,4 +16,8 @@ $light-blue-solid: linear-gradient($gradient-stop, $gradient-stop);
         background-image: $light-blue-solid;
         cursor: pointer;
     }
+}
+
+.globalFontColor {
+    color: $text-color-white;
 }

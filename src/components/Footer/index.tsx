@@ -11,7 +11,7 @@ const Footer = () => {
                         key={entry.index}
                     >
                         <Link
-                            className='text'
+                            className='text globalFontColor'
                             to={`${entry.url}`}
                         >
                             {entry.name}
