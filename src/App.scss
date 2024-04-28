@@ -9,3 +9,10 @@ $light-blue-solid: linear-gradient($gradient-stop, $gradient-stop);
         background-image: $light-blue-solid;
     };
 };
+
+@mixin globalHover {
+    &:hover {
+        background-image: $light-blue-solid;
+        cursor: pointer;
+    }
+}

@@ -12,9 +12,7 @@
     margin-left: 2px;
     width: 100vw;
     text-align: center;
-    &:hover {
-        background-image: $light-blue-solid;
-    }
+    @include globalHover;
 }
 
 .text {

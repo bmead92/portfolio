@@ -3,7 +3,7 @@ import Strings from '../../strings/Strings';
 import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
-        <div id='footer'>
+        <div id='footer' className='container'>
             {Strings.externalLinks.map((entry) => {
                 return (
                     <div

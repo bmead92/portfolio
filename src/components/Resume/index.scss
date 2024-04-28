@@ -1,18 +1,14 @@
 /* global styles */
 @import '../../App.scss';
 
-
-.resumeContainer {
-    height: 50vh;
-}
-
 .resumeHeaderText {
     color: whitesmoke;
     text-align: left;
 }
 
 .downloadResumeButton {
-    background-image: $light-blue-solid; //TODO: Update button default, on hover, maybe text clicked?
-    cursor: pointer;
+    //TODO: update download resume button to look nicer
+    background-color: #000000;
+    @include globalHover;
     color: whitesmoke;
 }

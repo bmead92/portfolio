@@ -8,7 +8,5 @@
     color: whitesmoke;
 }
 .collapsible {
-    &:hover {
-        background-image: $light-blue-solid;
-    }
+    @include globalHover;
 }

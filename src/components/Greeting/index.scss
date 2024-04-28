@@ -1,5 +1,6 @@
-$gradient-start: #20135a;
-$gradient-stop: #3673a2;
+/* global styles */
+@import '../../App.scss';
+
 
 .greetingContainer {
     display: flex;

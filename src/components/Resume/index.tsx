@@ -5,14 +5,16 @@ const Resume = () => {
     return (
         <div id='resume' className='resumeContainer'>
             <h1 className='resumeHeaderText'>{`RESUM${Strings.accentedE.uppercase}`}</h1>
-            {/* TODO: UPDATE TO LINK */}
+            {/* TODO: Render PDF here*/}
             <a
                 className='downloadResumeButtonText'
                 href={resumeSource}
                 download='BryceMeadorsResume.pdf'
             >
-                <button className='downloadResumeButton'>{`Download my resum${Strings.accentedE.lowercase}`}</button>
-                </a>
+                <button className='downloadResumeButton'>
+                    {`Download my resum${Strings.accentedE.lowercase}`}
+                </button>
+            </a>
         </div>
     )
 }
