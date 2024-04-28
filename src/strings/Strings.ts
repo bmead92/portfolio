@@ -8,7 +8,7 @@ const Strings = {
     
     This was my catalyst into Computer Science.
     
-    From the start, I knew that I would not make a career out of the military, so during my 5th year of active duty, I made a plan. Because I was involuntarily stationed in South Korea for the year, I was afforded the opportunity to choose my next duty station. After researching respected universities for Computer Science, I noticed that the University of Washington was a great choice, and even better, had a Tacoma campus close to Joint Base Lewis-McCord.
+    From the beginning of my military service, I knew that I would not make a career out of the military, so during my 5th year of active duty, I made a plan. Because I was involuntarily stationed in South Korea for the year, I was afforded the opportunity to choose my next duty station. After researching respected universities for Computer Science, I noticed that the University of Washington was a great choice, and even better, had a Tacoma campus close to Joint Base Lewis-McCord.
     
     From September 2018 to June 2022, I worked towards my degree. After graduating, I had a few interviews that ultimately lead to dead ends. I knew that I had the soft skills required for interviewing and being a successful developer, but I knew that I needed to improve my programming skills.
     
@@ -25,18 +25,18 @@ const Strings = {
     skillsHeader: `LANGUAGES, FRAMEWORKS, AND TOOLS`,
     navigationTabs: [
         {
-            name: 'HOME',
-            url: '/',
+            name:'ABOUT ME',
+            url: '#aboutMe',
             index: 0,
         },
         {
-            name:'ABOUT',
-            url: '/about',
+            name: 'SKILLS',
+            url: '#skills',
             index: 1,
         },
         {
             name:'RESUME',
-            url: '/resume',
+            url: '#resume',
             index: 2,
         },
         {
@@ -46,11 +46,14 @@ const Strings = {
         },
         {
             name: 'PROJECTS',
-            url: '/projects',
-            index: 5,
+            url: '#projects',
+            index: 4,
         },
     ],
-    
+    accentedE: {
+        uppercase: '\u00C9',
+        lowercase: '\u00E9',
+    },
 }
 
 export default Strings;

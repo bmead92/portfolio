@@ -4,7 +4,7 @@ import Tacoma from '../../assets/images/tacoma-wa.png'
 
 const Greeting = () => {
     return (
-        <div className='greetingContainer'>
+        <div id='greeting' className='greetingContainer'>
             <div className='greetingText'>
                 {Strings.aboutShort}
             </div>
