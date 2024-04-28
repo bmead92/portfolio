@@ -12,7 +12,7 @@ const Strings = {
     
     This was my catalyst into Computer Science.
     
-    From the beginning of my military service, I knew that I would not make a career out of the military, so during my 5th year of active duty, I made a plan. Because I was involuntarily stationed in South Korea for the year, I was afforded the opportunity to choose my next duty station. After researching respected universities for Computer Science, I noticed that the University of Washington was a great choice, and even better, had a Tacoma campus close to Joint Base Lewis-McCord.
+    From the beginning of my military service, I knew that I would not make a career out of the military, so during my 5th year of active duty, I made a plan. Because I was involuntarily stationed in South Korea for the year, I was afforded the opportunity to choose my next duty station. After researching respected universities for Computer Science, I noticed that the University of Washington was a great choice, and even better, had a Tacoma campus close to Joint Base Lewis-McChord.
     
     From September 2018 to June 2022, I worked towards my degree. After graduating, I had a few interviews that ultimately lead to dead ends. I knew that I had the soft skills required for interviewing and being a successful developer, but I knew that I needed to improve my programming skills.
     
@@ -34,13 +34,13 @@ const Strings = {
             index: 0,
         },
         {
-            name: 'SKILLS',
-            url: '#skills',
+            name: 'RESUME',
+            url: '#resume',
             index: 1,
         },
         {
-            name:'RESUME',
-            url: '#resume',
+            name:'SKILLS',
+            url: '#skills',
             index: 2,
         },
         {

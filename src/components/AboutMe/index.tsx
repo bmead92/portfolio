@@ -3,7 +3,11 @@ import Strings from '../../strings/Strings';
 import Collapsible from 'react-collapsible';
 const AboutMe =  () => {
     return (
-        <Collapsible className='aboutMeText collapsible' trigger='About Me'>
+        <Collapsible
+            className='header globalFontColor'
+            trigger='ABOUT ME'
+            open={true}
+        >
         <div id='aboutMe' className='aboutMeText'>
             {Strings.about}
         </div>
