@@ -11,8 +11,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin: 0px;
+  margin: 8px;
   padding: 8px;
+  overflow-x: hidden;
 }
 
 code {
