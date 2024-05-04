@@ -15,15 +15,17 @@ const Resume = () => {
                 </Page>
             </Document>
             </> */}
-            <a
-                className='downloadResumeButtonText'
-                href={resumeSource}
-                download='BryceMeadorsResume.pdf'
-            >
-                <button className='downloadResumeButton'>
-                    {`DOWNLOAD RESUM${Strings.accentedE.uppercase}`}
-                </button>
-            </a>
+            <div className='downloadButtonContainer'>
+                <a
+                    className='downloadResumeButtonText'
+                    href={resumeSource}
+                    download='BryceMeadorsResume.pdf'
+                >
+                    <button className='downloadResumeButton'>
+                        {`DOWNLOAD RESUM${Strings.accentedE.uppercase}`}
+                    </button>
+                </a>
+            </div>
         </div>
     )
 }
