@@ -1,8 +1,6 @@
 import './index.scss';
 import Strings from '../../strings/Strings';
 import {NavLink} from 'react-router-dom';
-/* TODO: Convert into a sidebar
-*/
 const NavigationTabs = () => {
     return (
         <div className="container">

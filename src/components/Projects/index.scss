@@ -37,12 +37,48 @@
 /* MEDIA QUERIES */
 
 //Non-mobile devices
-@media (min-width: 769px) and (max-width: 2560px) {
+@media (min-width: 1025px) and (max-width: 2560px) {
     .projectDescriptionNotice {
         display: none;
     }
     .descriptionShort {
         display: none;
+    }
+    .description {
+        height: 165px;
+    }
+}
+
+//Weird upper middle zone
+@media (min-width: 971px) and (max-width: 1024px) {
+    .projectDescriptionNotice {
+        display: none;
+    }
+    .descriptionShort {
+        display: none;
+    }
+}
+
+// Weird middle zone of browser re-sizing
+@media  (min-width: 770px) and (max-width: 970px) {
+    .projectsHeader {
+        font-size: 20px;
+    }
+    .projectDescriptionNotice {
+        font-weight: normal;
+        display: inline-block;
+        font-size: 12px;
+    }
+    .descriptionShort {
+        font-weight: normal;
+        font-size: 14px;
+        height: 80px;
+    }
+    .description {
+        display: none;
+    }
+    .image {
+        width: 25vw;
     }
 }
 
