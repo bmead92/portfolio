@@ -16,6 +16,9 @@ const Resume = () => {
             </Document>
             </> */}
             <div className='downloadButtonContainer'>
+                <h3 className='resumeDownloadLabel globalFontColor'>
+                    {Strings.resumeDownloadLabel}
+                </h3>
                 <a
                     className='downloadResumeButtonText'
                     href={resumeSource}

@@ -110,7 +110,8 @@ const Strings = {
         uppercase: '\u00C9',
         lowercase: '\u00E9',
     },
-    projectDescriptionNotice: '*Descriptions shortened for mobile devices'
+    projectDescriptionNotice: '*Descriptions shortened for mobile devices',
+    resumeDownloadLabel: `It appears you are on a mobile device. Please visit on a non-mobile device to download my resume.`,
 }
 
 export default Strings;
