@@ -1,21 +1,16 @@
-.skillsContainer {
-    width: 100%;
-}
 
-.languages {
-    width: 100%;
-}
-
-.misc {
-    width: 100%;
-}
-
-.mobile {
-    width: 100%;
-}
 
 .logo {
     height: 100px;
     width: 100px;
     padding: 16px;
+}
+
+/* MEDIA QUERIES */
+
+//Mobile devices
+@media (min-width: 320px) and (max-width: 768px) {
+    .skillsHeader {
+        font-size: 20px;
+    }
 }

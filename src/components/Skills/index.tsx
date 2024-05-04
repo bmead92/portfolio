@@ -16,7 +16,7 @@ import Strings from '../../strings/Strings';
 const Skills = () => {
     return (
         <div id='skills' className='skillsContainer'>
-            <h1 className='globalFontColor'>{Strings.skillsHeader}</h1>
+            <h1 className='skillsHeader globalFontColor'>{Strings.skillsHeader}</h1>
             <div className='languages'>
                 <img src={JSIcon} className='logo' alt='javascript logo' />
                 <img src={JavaIcon} className='logo' alt='Java logo' />

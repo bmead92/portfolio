@@ -6,7 +6,8 @@
     padding-bottom: 12px;
 }
 
-.header {
+.projectsHeader {
+    font-size: 32px;
     text-transform: uppercase;
 }
 
@@ -16,6 +17,7 @@
 }
 
 .name {
+    font-weight: normal;
     color: $text-color-white;
 }
 
@@ -30,4 +32,91 @@
     border-radius: 10%;
     height: 200px;
     width: 250px;
+}
+
+/* MEDIA QUERIES */
+
+//Non-mobile devices
+@media (min-width: 769px) and (max-width: 2560px) {
+    .projectDescriptionNotice {
+        display: none;
+    }
+    .descriptionShort {
+        display: none;
+    }
+}
+
+//Mobile devices
+@media (min-width: 320px) and (max-width: 768px) {
+    .projectsHeader {
+        font-size: 20px;
+    }
+    .projectDescriptionNotice {
+        font-weight: normal;
+        display: inline-block;
+        font-size: 12px;
+    }
+    .descriptionShort {
+        font-weight: normal;
+        font-size: 14px;
+        height: 175px;
+    }
+    .description {
+        display: none;
+    }
+    .image {
+        width: 25vw;
+    }
+}
+
+// Laptop
+@media  (min-width: 769px) and (max-width: 1024px) {
+    .description {
+        height: 150px;
+    }
+    .image {
+        height: 180px;
+    }
+}
+// Tablet
+@media (min-width: 426px) and (max-width: 768px) {
+    .name {
+        font-size: 12px;
+    }
+    .descriptionShort {
+        height: 100px;
+    }
+    .image {
+        height: 100px;
+    }
+}
+
+// Mobile large
+@media (min-width: 376px) and (max-width: 425px) {
+    .name {
+        font-size: 12px;
+    }
+    .descriptionShort {
+        height: 75px;
+        font-size: 10px;
+    }
+    .image {
+        height: 80px;
+        width: 25vw;
+    }
+}
+
+// Mobile med
+@media (max-width: 375px) {
+    .name {
+        font-size: 10px;
+    }
+    .descriptionShort {
+        height: 75px;
+        font-size: 10px;
+    }
+    .image {
+        height: 80px;
+        width: 25vw;
+    }
 }

@@ -13,3 +13,13 @@
         cursor: pointer;
     }
 }
+
+/* MEDIA QUERIES */
+
+//Mobile devices
+@media (min-width: 320px) and (max-width: 768px) {
+    .resumeHeader {
+        font-size: 20px;
+    }
+}
+

@@ -6,7 +6,7 @@ const Resume = () => {
     const resumeSource = '/BryceMeadorsResume.pdf';
     return (
         <div id='resume' className='resumeContainer'>
-            <h1 className='globalFontColor'>{`RESUM${Strings.accentedE.uppercase}`}</h1>
+            <h1 className='resumeHeader globalFontColor'>{`RESUM${Strings.accentedE.uppercase}`}</h1>
             {/* TODO: Render PDF here*/}
             {/* <>
             <Document file={resumeSource}>

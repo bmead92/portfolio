@@ -12,3 +12,14 @@
     color: $text-color-white;
 };
 
+/* MEDIA QUERIES */
+
+//Mobile devices
+@media (min-width: 320px) and (max-width: 768px) {
+    .header {
+        font-size: 20px;
+    }
+    .aboutMeText {
+        font-size: 16px;
+    }
+}

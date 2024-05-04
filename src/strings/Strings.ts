@@ -24,9 +24,9 @@ const Strings = {
     `,
     aboutShort: `
     Hello! I'm Bryce Meadors, a software developer based in Tacoma, Washington.
+    
     Welcome to my portfolio, I built this using React and SASS.
     `,
-    header: `Hello, I'm Bryce Meadors`,
     skillsHeader: `LANGUAGES, FRAMEWORKS, AND TOOLS`,
     navigationTabs: [
         {
@@ -71,9 +71,10 @@ const Strings = {
         {
             name: 'Set in Stone',
             description: `
-            2-D top-down Dungeon crawler that you can play in the browser, inspired by retro Zelda games.
+            2-D top-down dungeon crawler that you can play in the browser, inspired by retro Zelda games.
             Built using the Phaser Framework and Vanilla Javascript from 16 December 2022 - 21 December 2022.
             `,
+            descriptionShort: 'A 2-D top-down dungeon crawler, written in vanilla JS.',
             image: SetInStone,
             url: 'https://csdav0.github.io/JS_FINAL_PROJECT/',
             index: 0,
@@ -81,6 +82,7 @@ const Strings = {
         {
             name: 'Potion Quest',
             description: 'A console-based text adventure written in Java for phase 1 of our TLG capstone projects. Another team would inherit our codebase and build a GUI on top of it. I took lead on the controls, combat, and state of the main character.',
+            descriptionShort: 'An original text-based console adventure written in Java.',
             image: PotionQuest,
             url: 'https://github.com/bmead92/potion-quest',
             index: 1,
@@ -90,6 +92,7 @@ const Strings = {
             description: `
             A GUI represented using Java Swing. Built on a previously console based adventure from another team. As I had the most Java experience, I assumed the role of team lead. 
             `,
+            descriptionShort: 'A GUI-based adventure, written in Java using Java Swing.',
             image: TempleJog,
             url: 'https://github.com/bmead92/temple-jog-T1-Capstone',
             index: 2,
@@ -97,6 +100,7 @@ const Strings = {
         {
             name: 'Coffee and Cards',
             description: 'A version of blackjack hosted in the console, written in Java. Again, I assumed the the team lead position, wrote the entire first skeleton codebase, all of the unit tests, and completed the final code refactor.',
+            descriptionShort: 'Blackjack hosted in the console, written in Java.',
             image: CoffeeAndCards,
             url: 'https://github.com/bmead92/Coffee-and-Cards',
             index: 3,
@@ -106,6 +110,7 @@ const Strings = {
         uppercase: '\u00C9',
         lowercase: '\u00E9',
     },
+    projectDescriptionNotice: '*Descriptions shortened for mobile devices'
 }
 
 export default Strings;
