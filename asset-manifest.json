@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.11b8e334.css",
-    "main.js": "/portfolio/static/js/main.38d919f3.js",
+    "main.css": "/portfolio/static/css/main.136933df.css",
+    "main.js": "/portfolio/static/js/main.5d5e881f.js",
     "static/media/setInStoneTitleScreen.png": "/portfolio/static/media/setInStoneTitleScreen.f4ba462ce1c89d1b0c41.png",
     "static/media/javascript-icon.png": "/portfolio/static/media/javascript-icon.a147d63c92d88477c8db.png",
     "static/media/sass-icon.png": "/portfolio/static/media/sass-icon.7cdbf6b5889c42b3e490.png",
@@ -18,11 +18,11 @@
     "static/media/ios-icon.png": "/portfolio/static/media/ios-icon.04f71b556a6318383735.png",
     "static/media/python-icon.png": "/portfolio/static/media/python-icon.c038d6e950c57ddc3d03.png",
     "index.html": "/portfolio/index.html",
-    "main.11b8e334.css.map": "/portfolio/static/css/main.11b8e334.css.map",
-    "main.38d919f3.js.map": "/portfolio/static/js/main.38d919f3.js.map"
+    "main.136933df.css.map": "/portfolio/static/css/main.136933df.css.map",
+    "main.5d5e881f.js.map": "/portfolio/static/js/main.5d5e881f.js.map"
   },
   "entrypoints": [
-    "static/css/main.11b8e334.css",
-    "static/js/main.38d919f3.js"
+    "static/css/main.136933df.css",
+    "static/js/main.5d5e881f.js"
   ]
 }
