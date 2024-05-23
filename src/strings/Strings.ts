@@ -2,6 +2,9 @@ import SetInStone from '../assets/images/setInStoneTitleScreen.png'
 import CoffeeAndCards from '../assets/images/coffeeAndCardsTitleScreen.png'
 import TempleJog from '../assets/images/templeJogTitleScreen.png'
 import PotionQuest from '../assets/images/potionQuestTitleScreen.png';
+import nwacc from '../assets/images/NWACCLogo.jpg';
+import dockyard from '../assets/images/DockyardLogo.jpg'
+
 const Strings = {
     about:
     `
@@ -69,6 +72,27 @@ const Strings = {
     ],
     projects: [
         {
+            name: 'NWACC',
+            description: `
+            Modernized a legacy codebase that used only basic HTML. Created a brand new, lightweight codebase using React and SASS.
+            Used media queries for mobile viewing, and react-pdf for pdf support.
+            `,
+            descriptionShort: 'Written in React, styled with SASS.',
+            image: nwacc,
+            url: 'http://nwacconline.com/',
+            index: 0,
+        },
+        {
+            name: 'Dockyard Roller Derby',
+            description: `
+            Volunteered to update an abandoned site for a local roller derby league. Designed and implemented through GoDaddy.
+            `,
+            descriptionShort: 'Volunteered to update the site, hosted via GoDaddy.',
+            image: dockyard,
+            url: 'https://dockyardrollerderby.org/',
+            index: 1,
+        },
+        {
             name: 'Set in Stone',
             description: `
             2-D top-down dungeon crawler that you can play in the browser, inspired by retro Zelda games.
@@ -77,7 +101,7 @@ const Strings = {
             descriptionShort: 'A 2-D top-down dungeon crawler, written in vanilla JS.',
             image: SetInStone,
             url: 'https://csdav0.github.io/JS_FINAL_PROJECT/',
-            index: 0,
+            index: 2,
         },
         {
             name: 'Potion Quest',
@@ -85,7 +109,7 @@ const Strings = {
             descriptionShort: 'An original text-based console adventure written in Java.',
             image: PotionQuest,
             url: 'https://github.com/bmead92/potion-quest',
-            index: 1,
+            index: 3,
         },
         {
             name: 'Temple Jog',
@@ -95,7 +119,7 @@ const Strings = {
             descriptionShort: 'A GUI-based adventure, written in Java using Java Swing.',
             image: TempleJog,
             url: 'https://github.com/bmead92/temple-jog-T1-Capstone',
-            index: 2,
+            index: 4,
         },
         {
             name: 'Coffee and Cards',
@@ -103,7 +127,7 @@ const Strings = {
             descriptionShort: 'Blackjack hosted in the console, written in Java.',
             image: CoffeeAndCards,
             url: 'https://github.com/bmead92/Coffee-and-Cards',
-            index: 3,
+            index: 5,
         },
     ],
     accentedE: {

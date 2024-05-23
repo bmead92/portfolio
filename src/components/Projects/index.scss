@@ -3,6 +3,9 @@
 
 .projectSectionContainer {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
     padding-bottom: 12px;
 }
 
@@ -12,8 +15,11 @@
 }
 
 .projectContainer {
-    width: 25vw;
-    padding-right: 8px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 42%;
+    padding: 8px;
 }
 
 .name {
@@ -23,15 +29,16 @@
 
 .description {
     font-size: 16px;
-    height: 120px;
     color: $text-color-white;
     font-weight: normal;
+    text-align: center;
 }   
 
 .image {
     border-radius: 10%;
-    height: 200px;
-    width: 250px;
+    aspect-ratio: 4 / 5;
+    max-width: 250px;
+    max-height: 250px;
 }
 
 /* MEDIA QUERIES */
@@ -43,9 +50,6 @@
     }
     .descriptionShort {
         display: none;
-    }
-    .description {
-        height: 165px;
     }
 }
 
@@ -95,7 +99,6 @@
     .descriptionShort {
         font-weight: normal;
         font-size: 14px;
-        height: 175px;
     }
     .description {
         display: none;
@@ -107,9 +110,6 @@
 
 // Laptop
 @media  (min-width: 769px) and (max-width: 1024px) {
-    .description {
-        height: 150px;
-    }
     .image {
         height: 180px;
     }
@@ -118,9 +118,6 @@
 @media (min-width: 426px) and (max-width: 768px) {
     .name {
         font-size: 12px;
-    }
-    .descriptionShort {
-        height: 100px;
     }
     .image {
         height: 100px;
@@ -133,7 +130,6 @@
         font-size: 12px;
     }
     .descriptionShort {
-        height: 75px;
         font-size: 10px;
     }
     .image {
@@ -148,7 +144,6 @@
         font-size: 10px;
     }
     .descriptionShort {
-        height: 75px;
         font-size: 10px;
     }
     .image {
