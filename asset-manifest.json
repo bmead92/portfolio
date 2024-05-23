@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bf363a15.css",
-    "main.js": "/portfolio/static/js/main.4e159317.js",
+    "main.css": "/portfolio/static/css/main.ba883d37.css",
+    "main.js": "/portfolio/static/js/main.21c20480.js",
     "static/media/setInStoneTitleScreen.png": "/portfolio/static/media/setInStoneTitleScreen.f4ba462ce1c89d1b0c41.png",
+    "static/media/NWACCLogo.jpg": "/portfolio/static/media/NWACCLogo.8824b9360451c3ce5eca.jpg",
+    "static/media/DockyardLogo.jpg": "/portfolio/static/media/DockyardLogo.61729cc8b632661c49a9.jpg",
     "static/media/javascript-icon.png": "/portfolio/static/media/javascript-icon.a147d63c92d88477c8db.png",
     "static/media/sass-icon.png": "/portfolio/static/media/sass-icon.7cdbf6b5889c42b3e490.png",
     "static/media/tacoma-wa.png": "/portfolio/static/media/tacoma-wa.57058c9d519060c17d12.png",
@@ -18,11 +20,11 @@
     "static/media/ios-icon.png": "/portfolio/static/media/ios-icon.04f71b556a6318383735.png",
     "static/media/python-icon.png": "/portfolio/static/media/python-icon.c038d6e950c57ddc3d03.png",
     "index.html": "/portfolio/index.html",
-    "main.bf363a15.css.map": "/portfolio/static/css/main.bf363a15.css.map",
-    "main.4e159317.js.map": "/portfolio/static/js/main.4e159317.js.map"
+    "main.ba883d37.css.map": "/portfolio/static/css/main.ba883d37.css.map",
+    "main.21c20480.js.map": "/portfolio/static/js/main.21c20480.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf363a15.css",
-    "static/js/main.4e159317.js"
+    "static/css/main.ba883d37.css",
+    "static/js/main.21c20480.js"
   ]
 }
