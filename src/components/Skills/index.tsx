@@ -12,6 +12,9 @@ import PythonIcon from '../../assets/images/python-icon.png';
 import TypescriptIcon from '../../assets/images/typescript-icon.png';
 import SassIcon from '../../assets/images/sass-icon.png';
 import Strings from '../../strings/Strings';
+import SQLIcon from '../../assets/images/SQLIcon.png';
+import muiIcon from '../../assets/images/muiIcon.png';
+import mobXIcon from '../../assets/images/mobXIcon.png';
 
 const Skills = () => {
     return (
@@ -25,6 +28,9 @@ const Skills = () => {
                 <img src={HTMLIcon} className='logo' alt='HTML-5 logo' />
                 <img src={CSSIcon} className='logo' alt='CSS-3 logo' />
                 <img src={SassIcon} className='logo' alt='SASS logo' />
+                <img src={SQLIcon} className='logo' alt='SQL logo' />
+                <img src={muiIcon} className='logo' alt='MUI logo' />
+                <img src={mobXIcon} className='logo' alt='MobX logo' />
             </div>
             <div className='misc'>
                 <img src={ReactIcon} className='logo' alt='React logo' />
