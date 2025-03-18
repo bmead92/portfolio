@@ -1,34 +1,16 @@
 import './index.scss';
 import Strings from '../../strings/Strings';
-import {Document, Page} from 'react-pdf';
+import PdfRenderer from '../pdf/PdfRenderer';
+import resume from '../../assets/files/BryceMeadorsResume.pdf';
+import Collapsible from 'react-collapsible';
 
 const Resume = () => {
-    const resumeSource = '/BryceMeadorsResume.pdf';
     return (
-        <div id='resume' className='resumeContainer'>
-            <h1 className='resumeHeader globalFontColor'>{`RESUM${Strings.accentedE.uppercase}`}</h1>
-            {/* TODO: Render PDF here*/}
-            {/* <>
-            <Document file={resumeSource}>
-                <Page pageNumber={1}>
-
-                </Page>
-            </Document>
-            </> */}
-            <div className='downloadButtonContainer'>
-                <h3 className='resumeDownloadLabel globalFontColor'>
-                    {Strings.resumeDownloadLabel}
-                </h3>
-                <a
-                    className='downloadResumeButtonText'
-                    href={resumeSource}
-                    download='BryceMeadorsResume.pdf'
-                >
-                    <button className='downloadResumeButton'>
-                        {`DOWNLOAD RESUM${Strings.accentedE.uppercase}`}
-                    </button>
-                </a>
-            </div>
+        <div id='resume' className='resumeContainer globalFontColor'>
+            <h1 className='resumeHeader'>{`RESUM${Strings.accentedE.uppercase}`}</h1>
+            <Collapsible trigger={`View Resum${Strings.accentedE.lowercase}`}>
+            <PdfRenderer url={resume} /></Collapsible>
+            
         </div>
     )
 }
