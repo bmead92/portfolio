@@ -1,6 +1,10 @@
 /* global styles */
 @import '../../App.scss';
 
+#resume {
+    padding-top: 24px;
+}
+
 .downloadResumeButton {
     //TODO: update download resume button to look nicer
     background-image: $light-blue-solid;
