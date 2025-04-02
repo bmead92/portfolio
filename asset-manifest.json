@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3f9a2705.css",
-    "main.js": "/portfolio/static/js/main.2d8d7932.js",
+    "main.css": "/portfolio/static/css/main.950340a3.css",
+    "main.js": "/portfolio/static/js/main.556e688f.js",
     "static/media/pdf.worker.min.js": "/portfolio/static/media/pdf.worker.min.670fab5694e916edb4b8.js",
     "static/media/setInStoneTitleScreen.png": "/portfolio/static/media/setInStoneTitleScreen.f4ba462ce1c89d1b0c41.png",
-    "static/media/BryceMeadorsResume.pdf": "/portfolio/static/media/BryceMeadorsResume.635d245011271cebe5e3.pdf",
+    "static/media/BryceMeadorsResume.pdf": "/portfolio/static/media/BryceMeadorsResume.80830cb07bc6943c38e6.pdf",
     "static/media/NWACCLogo.jpg": "/portfolio/static/media/NWACCLogo.8824b9360451c3ce5eca.jpg",
     "static/media/DockyardLogo.jpg": "/portfolio/static/media/DockyardLogo.61729cc8b632661c49a9.jpg",
     "static/media/javascript-icon.png": "/portfolio/static/media/javascript-icon.a147d63c92d88477c8db.png",
@@ -24,11 +24,11 @@
     "static/media/ios-icon.png": "/portfolio/static/media/ios-icon.04f71b556a6318383735.png",
     "static/media/python-icon.png": "/portfolio/static/media/python-icon.c038d6e950c57ddc3d03.png",
     "index.html": "/portfolio/index.html",
-    "main.3f9a2705.css.map": "/portfolio/static/css/main.3f9a2705.css.map",
-    "main.2d8d7932.js.map": "/portfolio/static/js/main.2d8d7932.js.map"
+    "main.950340a3.css.map": "/portfolio/static/css/main.950340a3.css.map",
+    "main.556e688f.js.map": "/portfolio/static/js/main.556e688f.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f9a2705.css",
-    "static/js/main.2d8d7932.js"
+    "static/css/main.950340a3.css",
+    "static/js/main.556e688f.js"
   ]
 }
