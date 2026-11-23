@@ -1,153 +1,201 @@
-/* global styles */
-@import '../../App.scss';
+/* ---------- Featured ---------- */
 
-.projectSectionContainer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    padding-bottom: 12px;
+.featuredList {
+  display: grid;
+  gap: 28px;
 }
 
-.projectsHeader {
-    font-size: 32px;
-    text-transform: uppercase;
+.featured {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 40px;
+  align-items: center;
+  padding: 32px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: calc(var(--radius) + 4px);
+
+  &:nth-child(even) {
+    grid-template-columns: 1fr 300px;
+
+    .featuredMedia {
+      order: 2;
+    }
+  }
 }
 
-.projectContainer {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    width: 42%;
-    padding: 8px;
+.featuredMedia {
+  display: flex;
+  justify-content: center;
+  padding: 28px 0 0;
+  height: 340px;
+  overflow: hidden;
+  border-radius: var(--radius);
+  background: radial-gradient(120% 90% at 50% 0%, rgba(54, 115, 162, 0.35), rgba(32, 19, 90, 0.25) 60%, var(--surface));
+
+  img {
+    width: 220px;
+    height: auto;
+    align-self: flex-start;
+    border-radius: 22px 22px 0 0;
+    border: 6px solid #05080f;
+    border-bottom: none;
+    box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.7);
+  }
 }
 
-.name {
-    font-weight: normal;
-    color: $text-color-white;
+.featuredLabel {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-faint);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
-.description {
+.featuredBody {
+  h3 {
+    margin: 6px 0 12px;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+
+  p {
+    margin: 0 0 20px;
+    color: var(--text-muted);
     font-size: 16px;
-    color: $text-color-white;
-    font-weight: normal;
-    text-align: center;
-}   
-
-.image {
-    border-radius: 10%;
-    aspect-ratio: 4 / 5;
-    max-width: 250px;
-    max-height: 250px;
+  }
 }
 
-/* MEDIA QUERIES */
+.projectLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 24px;
 
-//Non-mobile devices
-@media (min-width: 1025px) and (max-width: 2560px) {
-    .projectDescriptionNotice {
-        display: none;
-    }
-    .descriptionShort {
-        display: none;
-    }
+  svg {
+    width: 15px;
+    height: 15px;
+  }
 }
 
-//Weird upper middle zone
-@media (min-width: 971px) and (max-width: 1024px) {
-    .projectDescriptionNotice {
-        display: none;
-    }
-    .descriptionShort {
-        display: none;
-    }
+/* ---------- Earlier work ---------- */
+
+.otherTitle {
+  margin: 72px 0 24px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
 }
 
-// Weird middle zone of browser re-sizing
-@media  (min-width: 770px) and (max-width: 970px) {
-    .projectsHeader {
-        font-size: 20px;
-    }
-    .projectDescriptionNotice {
-        font-weight: normal;
-        font-size: 12px;
-    }
-    .descriptionShort {
-        font-weight: normal;
-        font-size: 14px;
-        height: 80px;
-    }
-    .description {
-        display: none;
-    }
-    .image {
-        width: 25vw;
-    }
+.otherGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
-//Mobile devices
-@media (min-width: 320px) and (max-width: 768px) {
-    .projectsHeader {
-        text-align: center;
-        font-size: 20px;
+.card {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: border-color 0.15s ease, transform 0.15s ease, background-color 0.15s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    border-color: var(--border-strong);
+    background: var(--surface);
+
+    .cardArrow {
+      color: var(--accent);
+      transform: translate(2px, -2px);
     }
-    .projectDescriptionNotice {
-        text-align: center;
-        font-weight: normal;
-        font-size: 12px;
-    }
-    .descriptionShort {
-        font-weight: normal;
-        font-size: 14px;
-    }
-    .description {
-        display: none;
-    }
-    .image {
-        width: 25vw;
-    }
+  }
 }
 
-// Laptop
-@media  (min-width: 769px) and (max-width: 1024px) {
-    .image {
-        height: 180px;
+.cardMedia {
+  aspect-ratio: 16 / 9;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &.isContain {
+    background: #f4f5f7;
+
+    img {
+      object-fit: contain;
+      padding: 16px;
     }
-}
-// Tablet
-@media (min-width: 426px) and (max-width: 768px) {
-    .name {
-        font-size: 12px;
-    }
-    .image {
-        height: 100px;
-    }
+  }
 }
 
-// Mobile large
-@media (min-width: 376px) and (max-width: 425px) {
-    .name {
-        font-size: 12px;
-    }
-    .descriptionShort {
-        font-size: 10px;
-    }
-    .image {
-        height: 80px;
-        width: 25vw;
-    }
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 20px;
+
+  h4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 8px;
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  p {
+    flex: 1;
+    margin: 0 0 16px;
+    font-size: 14.5px;
+    color: var(--text-muted);
+  }
 }
 
-// Mobile med
-@media (max-width: 375px) {
-    .name {
-        font-size: 10px;
+.cardArrow {
+  width: 18px;
+  height: 18px;
+  color: var(--text-faint);
+  transition: color 0.15s ease, transform 0.15s ease;
+}
+
+@media (max-width: 900px) {
+  .otherGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 760px) {
+  .featured,
+  .featured:nth-child(even) {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 20px;
+
+    .featuredMedia {
+      order: 0;
     }
-    .descriptionShort {
-        font-size: 10px;
+  }
+  .featuredMedia {
+    height: 280px;
+
+    img {
+      width: 190px;
     }
-    .image {
-        height: 80px;
-        width: 25vw;
-    }
+  }
+}
+
+@media (max-width: 560px) {
+  .otherGrid {
+    grid-template-columns: 1fr;
+  }
 }
